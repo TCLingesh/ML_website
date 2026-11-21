@@ -19,7 +19,7 @@ ML_website/
 ├── multiple_disease_predict.py # Main Streamlit application script
 └── requirements.txt            # Python dependencies
 ```
-[cite: 1]
+
 
 ## Installation & Usage
 
@@ -28,19 +28,17 @@ ML_website/
    git clone [https://github.com/TCLingesh/ML_website.git](https://github.com/TCLingesh/ML_website.git)
    cd ML_website
    ```
-  [cite: 1]
 
 2. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
-   *(Ensure `streamlit`, `streamlit-option-menu`, `numpy`, and `scikit-learn` are installed in the environment where the `.sav` files were created.)*[cite: 1]
+   *(Ensure `streamlit`, `streamlit-option-menu`, `numpy`, and `scikit-learn` are installed in the environment where the `.sav` files were created.)*
 
 3. **Run the Streamlit app**
    ```bash
    streamlit run multiple_disease_predict.py
    ```
-  [cite: 1]
 
 ## Notes & Disclaimer
 
